@@ -19,6 +19,10 @@ import HelloWorld from './components/HelloWorld.vue'
   </header>
 
   <RouterView />
+
+  <div class="card-footer text-muted">
+      <footer>Copyright 2022@arief</footer>
+  </div>
 </template>
 
 <style scoped>
@@ -81,6 +85,14 @@ nav a:first-of-type {
 
     padding: 1rem 0;
     margin-top: 1rem;
+  }
+
+  .card-footer{
+    text-align: center;
+    /* background-color: rgb(172, 62, 62); */
+    color: white;
+    height: 30px;
+    transform: translate(300px, 90px);
   }
 }
 </style>

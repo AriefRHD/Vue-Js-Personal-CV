@@ -1,8 +1,8 @@
 <template>
   <div class="about">
-    <center>
+    <!-- <center> -->
     <h2 class="sikil">SKILLS</h2>
-    </center>
+    <!-- </center> -->
     <br>
     <h5>Figma</h5>
     <div class="progress">
@@ -51,6 +51,7 @@
 
   .sikil{
     margin: auto;
+    text-align: center;
   }
 }
 </style>
