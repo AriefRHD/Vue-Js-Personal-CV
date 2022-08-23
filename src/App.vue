@@ -22,6 +22,9 @@ import HelloWorld from './components/HelloWorld.vue'
 
   <div class="card-footer text-muted">
       <footer>Copyright 2022@arief</footer>
+      <a href=""><i class="emot fa-brands fa-instagram"></i></a>
+      <a href=""><i class="emot fa-brands fa-github"></i></a>
+      <a href=""><i class="emot fa-solid fa-envelope"></i></a>
   </div>
 </template>
 
@@ -89,10 +92,15 @@ nav a:first-of-type {
 
   .card-footer{
     text-align: center;
-    /* background-color: rgb(172, 62, 62); */
+    /* background-color: rgb(172, 62, 62); */ 
     color: white;
     height: 30px;
     transform: translate(300px, 90px);
+    font-size: 20px;
+  }
+
+  .emot{
+    margin-left: 10px;
   }
 }
 </style>
