@@ -5,6 +5,7 @@
 <template>
   <main>
     <div class="container">
+      
       <h2>PROFIL SAYA</h2>
       <br>
       <img alt="foto" class="foto_cv" src="@/assets/foto_cv.jpeg" width="200" height="265" />

@@ -23,8 +23,9 @@ import HelloWorld from './components/HelloWorld.vue'
   <div class="card-footer text-muted">
       <footer>Copyright 2022@arief</footer>
       <a href=""><i class="emot fa-brands fa-instagram"></i></a>
-      <a href=""><i class="emot fa-brands fa-github"></i></a>
+      <a href="https://github.com/AriefRHD/Vue-Js-Personal-CV"><i class="emot fa-brands fa-github"></i></a>
       <a href=""><i class="emot fa-solid fa-envelope"></i></a>
+      <a href=""><i class="emot fa-brands fa-whatsapp"></i></a>
   </div>
 </template>
 
@@ -100,7 +101,9 @@ nav a:first-of-type {
   }
 
   .emot{
-    margin-left: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    
   }
 }
 </style>
