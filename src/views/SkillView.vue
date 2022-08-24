@@ -29,7 +29,7 @@
     <p>Saya menguasai beberapa bidang di Front End yaitu Figma, Boostrap, Wordpress, Html,dan Css.
       sedangkan di bidang Back End Saya menguasai Laravel, Php,dan MySql.
     </p>
-    
+
 </div>
   
 </template>
@@ -37,11 +37,14 @@
 <style>
 @media (min-width: 1024px) {
   .about {
-    min-height: 100vh;
+    /* min-height: 100vh; */
     /* display: flex; */
     align-items: center;
     margin-top: 150px;
     /* background-color: darkgray; */
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 20px;
+    padding: 2rem;
   }
 
   h5{

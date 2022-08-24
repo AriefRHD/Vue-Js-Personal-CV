@@ -10,18 +10,20 @@ import HelloWorld from './components/HelloWorld.vue'
 
     <div class="wrapper">
       <!-- <HelloWorld msg=" CV Arief Rahman Hidayat" /> -->
-
       <nav>
-        <RouterLink to="/">Profil Lengkap</RouterLink>
-        <RouterLink to="/skill">Skill</RouterLink>
+              <RouterLink to="/">Profil Lengkap</RouterLink>
+              <RouterLink to="/skill">Skill</RouterLink>
+              <!-- <a href="/">Profil</a>
+              <a href="/skill">Skill</a> -->
       </nav>
+      
     </div>
   </header>
 
   <RouterView />
 
   <div class="card-footer text-muted">
-      <footer>Copyright 2022@arief</footer>
+      <footer>Copyright 2022@ariefrahmanhidayat</footer>
       <a href=""><i class="emot fa-brands fa-instagram"></i></a>
       <a href="https://github.com/AriefRHD/Vue-Js-Personal-CV"><i class="emot fa-brands fa-github"></i></a>
       <a href=""><i class="emot fa-solid fa-envelope"></i></a>
@@ -96,8 +98,9 @@ nav a:first-of-type {
     /* background-color: rgb(172, 62, 62); */ 
     color: white;
     height: 30px;
-    transform: translate(300px, 90px);
+    /* transform: translate(300px, 90px); */
     font-size: 20px;
+    margin-top: 10rem;
   }
 
   .emot{
