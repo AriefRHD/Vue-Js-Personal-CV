@@ -9,7 +9,7 @@ import HelloWorld from './components/HelloWorld.vue'
     
 
     <div class="wrapper">
-      <HelloWorld msg=" CV Arief Rahman Hidayat" />
+      <!-- <HelloWorld msg=" CV Arief Rahman Hidayat" /> -->
 
       <nav>
         <RouterLink to="/">Profil Lengkap</RouterLink>
